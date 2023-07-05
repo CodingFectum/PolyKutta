@@ -1,0 +1,213 @@
+@import url("fectum-BS.css");
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(241 175 75)),
+									   color-stop(0.72, rgb(130 94 41)),
+									   color-stop(0.86, rgb(34 34 34)));
+}
+*{
+  font-family: 'Roboto' !important;
+  color: #222222 !important;
+  word-break: break-word;
+}
+a,p,button{
+  font-size: 20px;
+  font-weight: 500;
+}
+.App{
+  background-color: #f7ecc9;
+  min-height: 100vh;
+}
+.QMF---SectionHeadeing{
+  font-weight: bolder;
+  font-size: 55px;
+  letter-spacing: 5px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+}
+.QMF---SectionHeadeing span{
+  display: block;
+  position: absolute;
+  left: 0px;
+  right: -12px;
+  top: 7px;
+  z-index: -1;
+  font-size: 50px;
+  letter-spacing: 8px;
+  color: #f7ecc9 !important;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+@media screen and (max-width:600px) {
+  .QMF---SectionHeadeing{
+    font-size: 40px;
+  }
+  .QMF---SectionHeadeing span{
+    top: 6px;
+    right: -12px;
+    font-size: 38px;
+    left: 4px;
+  }
+}
+
+
+/* CSS for Header start */
+.QMF---Header{
+  background-color: #f1af4b;
+}
+.QMF---Header h1{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.QMF---Header h1 span:nth-child(1){
+  font-size: 85px;
+  letter-spacing: 20px;
+  text-decoration: underline;
+}
+.QMF---Header h1 span{
+  font-size: 38px;
+  font-weight: 900;
+}
+.QMF---Header .QMF---header_btn{
+  max-width: 260px;
+}
+.QMF---Header a:nth-child(1) .QMF---header_btn{
+  margin-left: -11px;
+}
+@media screen and (max-width:960px) {
+  .QMF---Header h1{
+    margin-top: 20%;
+    font-size: 20px;
+  }
+  .QMF---Header h1 span:nth-child(1){
+    font-size: 40px;
+    letter-spacing: 12px;
+    text-decoration: underline;
+  }
+  .QMF---Header h1 span{
+    font-size: 26px;
+    font-weight: 900;
+  }
+}
+@media screen and (max-width:600px) {
+  .QMF---Header a:nth-child(1) .QMF---header_btn{
+    margin-left: unset;
+  }
+}
+/* CSS for Header end */
+
+
+
+
+.QMF---About{
+  border-radius: 20px;
+  background-color: #f1af4b;
+  box-shadow: 0px 0px 2px;
+}
+.QMF---About .QMF---main-pic{
+  max-width: 450px;
+  position: relative;
+  right: 15.3%;
+}
+.QMF---About h3{
+ font-size: 35px !important;
+ font-weight: 800;
+}
+.QMF---About a{
+  transition: all .4s ease;
+-webkit-transition: all .4s ease;
+}
+.QMF---About a:hover img{
+  transform: scale(1.1);
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+
+@media screen and (max-width:1280px) {
+  .QMF---About .QMF---main-pic {
+    max-width: 276px;
+    right: 57px;
+  }
+}
+@media screen and (max-width:599px) {
+  .QMF---About .QMF---main-pic {
+    max-width: 150px;
+    right: 31px;
+  }
+}
+
+
+#features .PKF---features_img{
+  position: absolute;
+  width: 200px;
+  top: 6.6%;
+  right: 2%;
+}
+@media screen and (max-width:1280px) {
+  #features .PKF---features_img{
+    width: 155px;
+    top: 9.5%;
+    right: 2%;
+  }
+}
+@media screen and (max-width:959px) {
+  #features .PKF---features_img{
+    width: 155px;
+    top: 6.2%;
+    right: 2%;
+  }
+}
+@media screen and (max-width:599px) {
+  #features .PKF---features_img{
+    width: 130px;
+    top: 66px;
+    right: 2%;
+  }
+}
+
+.PKF---FAQ_img{
+  background-color: #f1af4b;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px;
+}
+.PKF---FAQ_img img{
+  position: absolute;
+  height: 200px;
+  top: -167px;
+  left: 2%;
+}
+@media screen and (max-width:1280px) {
+  .PKF---FAQ_img img{
+    height: 155px;
+    top: -130px;
+    left: 2%;
+  }
+}
+@media screen and (max-width:599px) {
+  .PKF---FAQ_img img{
+    height: 130px;
+    top: -110px;
+    left: 2%;
+  }
+} 

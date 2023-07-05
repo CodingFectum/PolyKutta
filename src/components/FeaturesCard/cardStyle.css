@@ -1,0 +1,46 @@
+
+/* CSS for cards start */
+
+.QMF---FeatureCards{
+/* background: radial-gradient(at top left,#030921,#030921,#171e3b); */
+border-radius: 10px;
+width: 100%;
+}
+.QMF---FeatureCardsMain:nth-child(even){
+    background-color: #222222;
+}
+.QMF---FeatureCardsMain:nth-child(odd){
+    background-color: #f1af4b;
+}
+.QMF---FeatureCardsMain:nth-child(odd) h2,
+.QMF---FeatureCardsMain:nth-child(odd) p{
+    color: #222222 !important
+}
+.QMF---FeatureCardsMain:nth-child(3){
+    border-radius: 20px 20px 0 0;
+}
+.QMF---FeatureCardsMain:nth-child(6){
+    border-radius: 0 0 20px 20px;
+}
+.QMF---FeatureCards img{
+height: 60px;
+width: auto;
+}
+.QMF---FeatureCards h2{
+font-size: 26px;
+}
+.QMF---FeatureCards p{
+min-height: 55px;
+}
+
+
+@media screen and (max-width:600px) {
+    .QMF---FeatureCards h2{
+        font-size: 20px;
+        }
+        .QMF---FeatureCards p{
+        min-height: unset;
+        }
+}
+
+/* CSS for cards end */
